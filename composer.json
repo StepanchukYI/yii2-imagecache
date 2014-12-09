@@ -1,0 +1,18 @@
+{
+    "name": "corpsepk/yii2-imagecache",
+    "description": "ImageCache for Yii2",
+    "keywords": ["yii2", "image", "resize", "image store", "thumb", "cache"],
+    "homepage": "https://github.com/corpsepk/yii2-imagecache",
+    "type": "yii2-extension",
+    "authors": [
+        {
+            "name": "Alexsandr Khramov",
+            "email": "corpsepk@gmail.com"
+        }
+    ],
+    "require": {
+    },
+    "autoload": {
+        "psr-4": {"corpsepk\\yii2imagecache\\": ""}
+    }
+}
