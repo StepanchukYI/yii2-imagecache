@@ -179,7 +179,7 @@ class ImageCache extends \yii\base\Component
 
 //        if($this->graphicsLibrary == 'Imagick'){
             $image = new \Imagick($srcImagePath);
-            $image->setImageCompressionQuality(100);
+            $image->setImageCompressionQuality(30);
 
             if($size){
                 if($size['height'] && $size['width']){
